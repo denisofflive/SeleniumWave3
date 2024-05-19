@@ -67,4 +67,5 @@ print(permanent_address_field.get_attribute("value"))
 # Нажать на кнопку Submit
 submit_button = driver.find_element(*SUBMIT_BUTTON)
 submit_button.click()
+
 time.sleep(3)

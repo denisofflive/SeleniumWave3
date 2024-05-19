@@ -42,4 +42,5 @@ login_button.click()
 logout_button = driver.find_element(*LOGOUT_BUTTON).is_displayed()
 assert logout_button == True
 print("Logout button is displayed")
+
 time.sleep(3)
