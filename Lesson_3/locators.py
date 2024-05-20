@@ -26,46 +26,46 @@ EXPLORE_ALL_TRACKS_TEXT = ("xpath", "//h2[text()='Explore all tracks']")
 FIND_THE_RIGHT_TEXT = ("xpath", "//p[text()='Find the right one by choosing a specific area of knowledge']")
 
 # 10 All tracks Button
-ALL_TRACKS_BUTTON = ("xpath", "(//a[@click-event-part='main'])[1]")
+ALL_TRACKS_BUTTON = ("xpath", "//a[text()='All tracks ']")
 
 # 11 Top tracks Button
-TOP_TRACKS_BUTTON = ("xpath", "(//a[@click-event-part='main'])[2]")
+TOP_TRACKS_BUTTON = ("xpath", "//a[text()='Top tracks ']")
 
 # 12 Beginner-friendly Button
-BEGINNER_FRIENDLY_BUTTON = ("xpath", "(//a[@click-event-part='main'])[3]")
+BEGINNER_FRIENDLY_BUTTON = ("xpath", "//a[text()='Beginner-friendly ']")
 
 # 13 Python Button
-PYTHON_BUTTON = ("xpath", "(//a[@click-event-part='main'])[5]")
+PYTHON_BUTTON = ("xpath", "//a[text()='Python ']")
 
 # 14 Java Button
-JAVA_BUTTON = ("xpath", "(//a[@click-event-part='main'])[6]")
+JAVA_BUTTON = ("xpath", "//a[text()='Java ']")
 
 # 15 Javascript Button
-JAVASCRIPT_BUTTON = ("xpath", "(//a[@click-event-part='main'])[7]")
+JAVASCRIPT_BUTTON = ("xpath", "//a[text()='JavaScript ']")
 
 # 16 Kotlin Button
-KOTLIN_BUTTON = ("xpath", "(//a[@click-event-part='main'])[8]")
+KOTLIN_BUTTON = ("xpath", "//a[text()='Kotlin ']")
 
 # 17 Go Button
-GO_BUTTON = ("xpath", "(//a[@click-event-part='main'])[9]")
+GO_BUTTON = ("xpath", "//a[text()='Go ']")
 
 # 18 Android  Button
-ANDROID_BUTTON = ("xpath", "(//a[@click-event-part='main'])[10]")
+ANDROID_BUTTON = ("xpath", "//a[text()='Android ']")
 
 # 19 C++  Button
-C_PLUS_PLUS_BUTTON = ("xpath", "(//a[@click-event-part='main'])[11]")
+C_PLUS_PLUS_BUTTON = ("xpath", "//a[text()='C++ ']")
 
 # 20 Generative AI Button
-GENERATIVE_AI_BUTTON = ("xpath", "(//a[@click-event-part='main'])[12]")
+GENERATIVE_AI_BUTTON = ("xpath", "//a[text()='Generative AI ']")
 
 # 21 Math Button
-MATH_BUTTON = ("xpath", "(//a[@click-event-part='main'])[13]")
+MATH_BUTTON = ("xpath", "//a[text()='Math ']")
 
 # 22 Frontend  Button
-FRONTEND_BUTTON = ("xpath", "(//a[@click-event-part='main'])[14]")
+FRONTEND_BUTTON = ("xpath", "//a[text()='Frontend ']")
 
 # 23 SQL and Databases Button
-SQL_DATABASES_BUTTON = ("xpath", "(//a[@click-event-part='main'])[15]")
+SQL_DATABASES_BUTTON = ("xpath", "//a[text()='SQL and Databases ']")
 
 # 24 Python Core Card
 PYTHON_CORE_CARD = ("xpath", "(//div[@class='card-body'])[1]")
