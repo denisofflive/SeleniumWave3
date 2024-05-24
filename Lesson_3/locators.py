@@ -2,16 +2,16 @@
 MAIN_TITLE = ("xpath", "//h1")
 
 # 2 Sign In Button
-SIGN_IN_BUTTON = ("xpath", "//button[@class='btn btn-outline-light btn-sm text-nowrap']")
+SIGN_IN_BUTTON = ("xpath", "//button[contains(@class, 'btn btn-out')]")
 
 # 3 Start for Free
-START_FOR_FREE_BUTTON = ("xpath", "//button[@class='btn btn-primary btn-sm text-nowrap']")
+START_FOR_FREE_BUTTON = ("xpath", "//button[contains(@class, 'btn btn-primary')]")
 
 # 4 HyperSkill
-HYPERSKILL = ("xpath", "//div[@class='text-logo d-none d-xl-inline-block ml-xl-2']")
+HYPERSKILL = ("xpath", "//div[contains(@class, 'text-logo')]")
 
 # 5 Explore
-EXPLORE = ("xpath", "//a[@class='nav-link dropdown-toggle tw-flex tw-items-center']")
+EXPLORE = ("xpath", "//a[contains(@class, 'nav-link dropdown')]")
 
 # 6 Pricing
 PRICING = ("xpath", "//li[@click-event-target='pricing']")
@@ -23,49 +23,49 @@ FOR_BUSINESS = ("xpath", "//li[@click-event-target='join_as_organization']")
 EXPLORE_ALL_TRACKS_TEXT = ("xpath", "//h2[text()='Explore all tracks']")
 
 # 9 Find the right one by choosing a specific area of knowledge
-FIND_THE_RIGHT_TEXT = ("xpath", "//p[text()='Find the right one by choosing a specific area of knowledge']")
+FIND_THE_RIGHT_TEXT = ("xpath", "//p[@class='mb-4']")
 
 # 10 All tracks Button
-ALL_TRACKS_BUTTON = ("xpath", "//a[text()='All tracks ']")
+ALL_TRACKS_BUTTON = ("xpath", "//a[contains(@click-event-context, 'all_tracks')]")
 
 # 11 Top tracks Button
-TOP_TRACKS_BUTTON = ("xpath", "//a[text()='Top tracks ']")
+TOP_TRACKS_BUTTON = ("xpath", "//a[contains(@click-event-context, 'top_tracks')]")
 
 # 12 Beginner-friendly Button
-BEGINNER_FRIENDLY_BUTTON = ("xpath", "//a[text()='Beginner-friendly ']")
+BEGINNER_FRIENDLY_BUTTON = ("xpath", "//a[contains(@click-event-context, 'beginner-friendly')]")
 
 # 13 Python Button
-PYTHON_BUTTON = ("xpath", "//a[text()='Python ']")
+PYTHON_BUTTON = ("xpath", "//a[contains(@click-event-context, 'python')]")
 
 # 14 Java Button
-JAVA_BUTTON = ("xpath", "//a[text()='Java ']")
+JAVA_BUTTON = ("xpath", "//a[contains(@click-event-context, 'java')]")
 
 # 15 Javascript Button
-JAVASCRIPT_BUTTON = ("xpath", "//a[text()='JavaScript ']")
+JAVASCRIPT_BUTTON = ("xpath", "//a[contains(@click-event-context, 'javascript')]")
 
 # 16 Kotlin Button
-KOTLIN_BUTTON = ("xpath", "//a[text()='Kotlin ']")
+KOTLIN_BUTTON = ("xpath", "//a[contains(@click-event-context, 'kotlin')]")
 
 # 17 Go Button
-GO_BUTTON = ("xpath", "//a[text()='Go ']")
+GO_BUTTON = ("xpath", "//a[contains(@click-event-context, 'go')]")
 
 # 18 Android  Button
-ANDROID_BUTTON = ("xpath", "//a[text()='Android ']")
+ANDROID_BUTTON = ("xpath", "//a[contains(@click-event-context, 'android')]")
 
 # 19 C++  Button
-C_PLUS_PLUS_BUTTON = ("xpath", "//a[text()='C++ ']")
+C_PLUS_PLUS_BUTTON = ("xpath", "//a[contains(@click-event-context, 'c++')]")
 
 # 20 Generative AI Button
-GENERATIVE_AI_BUTTON = ("xpath", "//a[text()='Generative AI ']")
+GENERATIVE_AI_BUTTON = ("xpath", "//a[contains(@click-event-context, 'generative_ai')]")
 
 # 21 Math Button
-MATH_BUTTON = ("xpath", "//a[text()='Math ']")
+MATH_BUTTON = ("xpath", "//a[contains(@click-event-context, 'math')]")
 
 # 22 Frontend  Button
-FRONTEND_BUTTON = ("xpath", "//a[text()='Frontend ']")
+FRONTEND_BUTTON = ("xpath", "//a[contains(@click-event-context, 'frontend')]")
 
 # 23 SQL and Databases Button
-SQL_DATABASES_BUTTON = ("xpath", "//a[text()='SQL and Databases ']")
+SQL_DATABASES_BUTTON = ("xpath", "//a[contains(@click-event-context, 'sql_and_databases')]")
 
 # 24 Python Core Card
 PYTHON_CORE_CARD = ("xpath", "(//div[@class='card-body'])[1]")
