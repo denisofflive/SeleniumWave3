@@ -37,11 +37,13 @@ pickle.dump(
     )
 )
 
+# Чистим куки + перезагрузка страницы = очистка корзины
+driver.delete_all_cookies()
+driver.refresh()
 time.sleep(3)
 
-# Очистка всех cookies
+# Добавляем куки
 driver.delete_all_cookies()
-
 cookies = pickle.load(
     open(
         os.path.join(os.getcwd(), "product_cookies", "cookies.pkl"),
@@ -52,18 +54,6 @@ cookies = pickle.load(
 for cookie in cookies:
     driver.add_cookie(cookie)
 
+# Перезагрузка страницы для применения новых куков
 driver.refresh()
-time.sleep(3)
-
-# Если есть кука, то загрузи её и прочитай куку
-if os.path.exists(os.path.join(os.getcwd(), "product_cookies", "cookies.pkl")):
-    driver.delete_all_cookies()
-    cookies = pickle.load(open(os.path.join(os.getcwd(), "product_cookies", "cookies.pkl"), "rb"))
-    for cookie in cookies:
-        driver.add_cookie(cookie)
-    driver.refresh()
-# Если куки нет, то создаём и сохраняем куку
-else:
-    pickle.dump(driver.get_cookies(), open(os.path.join(os.getcwd(), "product_cookies", "cookies.pkl"), "wb"))
-
 time.sleep(3)
